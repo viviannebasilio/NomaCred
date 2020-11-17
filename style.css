@@ -224,9 +224,3 @@
                 margin-left: 43%;
                 margin-right: 45%;
             }
-
-        @media (max-width: 700px) {
-                body {
-                    width: 100vw;
-                    background: #f3f7f9;
-                }
