@@ -140,7 +140,7 @@
 
 	#topgrid {
                 display: grid;
-                grid-template-columns: 510px 510px;
+                grid-template-columns:500px 300px;
 			}
 
             #corpo {
