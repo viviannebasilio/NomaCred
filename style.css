@@ -55,6 +55,12 @@
                 border-top-left-radius: 0;
                 border-top-right-radius: 0;
             }
+          direita{
+            margin-top: 2.4rem;
+ 	width: 35%;
+  	padding: 10px 0;
+  	margin: 20px 40px;
+	    }
             /*Rodape*/
             
             .rodape {
