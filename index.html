@@ -75,9 +75,9 @@
                 Texto explicando o assunto, falando um pouco mais. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                 ex ea commodo consequat.
             </p>
-            <div0 id="quadros">
+            <div0 class="row">
 
-                <div1 id="primeiroquadro">
+                <div1 class=".col-sm-4">
                     <a href="#"><img id="imagem1" src=https://aeromagazine.uol.com.br/media/versions/mrj_m100_2_free_big.jpg></a>
                     <p1 id="titulop1">
                         </br>
@@ -90,7 +90,7 @@
                     </p11>
                     </br>
                 </div1>
-                <div2 id="segundoquadro">
+                <div2 class=".col-sm-4">
                     <p2 id="titulop2">
 
                         <a href="#"><img id="imagem2" src=https://images.adsttc.com/media/images/5e70/12c5/b357/65c4/3e00/00ab/newsletter/FEATURED.jpg?1584403134></a>
@@ -104,7 +104,7 @@
                     </p21>
                     </br>
                 </div2>
-                <div3 id="terceiroquadro">
+                <div3 class=".col-sm-4">
                     <a href="#"><img id="imagem3" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrlD9Ds397FXBi_3WQh8ePYPvPsCJ2ao4Vg&usqp=CAU></a>
                     <p3 id="titulop3">
                         </br>
@@ -129,20 +129,60 @@
                     interessei! Quero saber mais!</button>
             </div5>
 
-                 <section>
+            <main role="main">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
 
-                <div class="carousel">
-                    <h1>Empreendedorismo cresce e bate recorde em meio à pandemia</h1>
-                    
-                    <p class="citacao"><span class="aspasEsq">&ldquo;</span>Em 2020, o Brasil caminha para recordes em número de empreendedores na história, com esta parcela correspondendo a 30% do Produto Interno Bruto brasileiro.</p></br>
-                    <p class="referencia">UOL Economia<span class="aspasDir">&rdquo;</span></br></p></br>
-                    
-                    <button class="btn-2" onClick="document.getElementById('logo').scrollIntoView();">Quero
+                            <div class="carousel-caption">
+                                <h1>O que tem se falado sobre o tal assunto que estamos propondo o download?</h1>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button class="btn-2" onClick="document.getElementById('logo').scrollIntoView();">Quero
                                 baixar!</button>
 
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+
+                            <div class="carousel-caption">
+                                <h1>O que tem se falado sobre o tal assunto que estamos propondo o download?</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat.
+                                </p>
+                                <button class="btn-2" onClick="document.getElementById('logo').scrollIntoView();">Quero
+                                baixar!</button>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <div class="carousel-caption">
+                                <h1>O que tem se falado sobre o tal assunto que estamos propondo o download?</h1>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button class="btn-2" onClick="document.getElementById('logo').scrollIntoView();">Quero
+                                baixar!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
                 </div>
 
-    </section>
+
+                </section>
 
 
 
