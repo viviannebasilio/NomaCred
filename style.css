@@ -129,27 +129,15 @@
                     font-size: 1.25rem;
                     line-height: 1.4;
                 }
-            }
-            
-  #texto{
-         
+           
+.text {
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
-#form{  
-	margin-top: 2.4rem;
-	margin-left:8%;
-	margin-right:15%
- 	width: 30%;
-  	padding: 10px 0;
-  	margin: 20px 40px;
+.form {
+  margin-right: .75rem;
+  margin-left: .75rem;
 }
-
-	
-	
-	#topgrid {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-			}
-
             #corpo {
                 margin: auto 0;
                 background-attachment: fixed;
