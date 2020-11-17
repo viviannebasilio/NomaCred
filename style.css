@@ -55,17 +55,7 @@
                 border-top-left-radius: 0;
                 border-top-right-radius: 0;
             }
-          #jumbotron{
-        margin-top: 2.4rem;
- 	width: 35%;
-  	padding: 10px 0;
-  	margin: 20px 40px;
-	    }
-
-	#topgrid {
-                display: grid;
-                grid-template-columns: 410px 410px 410px;
-			}
+       
             /*Rodape*/
             
             .rodape {
@@ -141,6 +131,18 @@
                 }
             }
             
+  #jumbotron{
+        margin-top: 2.4rem;
+ 	width: 30%;
+  	padding: 10px 0;
+  	margin: 20px 40px;
+	    }
+
+	#topgrid {
+                display: grid;
+                grid-template-columns: 510px 510px;
+			}
+
             #corpo {
                 margin: auto 0;
                 background-attachment: fixed;
