@@ -7,8 +7,11 @@
                 font-family: 'Roboto', sans-serif;
                 width: 100vw;
                 background: #F0F0F2;
+                margin: 0 auto;
             }
-            
+            .centralizado{
+            margin: 0 auto;
+            }
             .navbar-brand {
                 align-items: center;
                 text-align: center;
