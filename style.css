@@ -171,11 +171,8 @@
                 font-family: 'Open Sans', sans-serif;
             }
             
-            #quadros {
-               display: inline-grid;
-               grid-template-columns: 410px 410px 410px;
-              padding: 40px 30px;
-            
+            .quadros {
+               flex-direction: row;
              
             }
             
