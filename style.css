@@ -172,9 +172,9 @@
             }
             
             #quadros {
-                margin: 0 auto;
-                display: grid;
-                grid-template-columns: 410px 410px 410px;
+               display: inline-block;
+              text-align: left
+              
             }
             
             #primeiroquadro {
