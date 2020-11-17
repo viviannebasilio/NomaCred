@@ -171,9 +171,9 @@
                 font-family: 'Open Sans', sans-serif;
             }
             
-            .quadros {
+            #quadros {
                display: inline-grid;
-               grid-template-columns: 1fr 1fr 1fr;
+               grid-template-columns: 410px 410px 410px;
             
              
             }
