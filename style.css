@@ -173,7 +173,7 @@
             
             .quadros {
                flex-direction: row;
-               margin: 0 auto;
+               margin: left;
             }
             
             #primeiroquadro {
