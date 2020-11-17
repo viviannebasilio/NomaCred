@@ -172,8 +172,8 @@
             }
             
             .quadros {
-               display: inline-block;
-              text-align: left;r;
+               display: flex;
+              justify-content: center;
              
             }
             
