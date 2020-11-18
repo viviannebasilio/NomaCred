@@ -218,6 +218,7 @@ body {
     body {
         width: 100vw;
         background: #F0F0F2;
+        overflow-x: hidden;
       }
 
     .navbar bg-white {
@@ -233,30 +234,31 @@ body {
     
     .logoTitulo {
         margin-top: 10px;
-        width: 70%;
+        width: 100%;
     }
     
     .principal {
         display: flex;
-        margin-left: 7%;
-        width: 65%;
+        margin: 0;
+        width: 100vw;
         flex-direction: column;
     }
     
     .bloco {
-        width: 45%;
+        width: 100%;
         float: left;
-        margin: 20px;
+        margin: 0;
     }
     
     .titulo {
         font-family: 'Roboto', sans-serif;
-        font-size: 5rem;
+        font-size: 4rem;
         color: #2947F2;
         font-weight: 900;
         text-align: left;
         line-height: 5rem;
-        width: 80vw;
+        width: 100vw;
+        padding-left: 1.5rem;
     }
     
     .subtitulo {
@@ -264,9 +266,10 @@ body {
         color: black;
         text-align: left;
         font-weight: 300;
-        font-size: 2rem;
+        font-size: 1.8rem;
         line-height: 2.8rem;
-        width: 85vw;
+        width: 90vw;
+        padding-left: 1.5rem;
     }
     
     .homemPrincipal {
@@ -277,16 +280,16 @@ body {
     }
     
     .direita {
-        margin-left: 15%;
+        margin-left: 5%;
         margin-top: 0%;
-        margin-right: -15%;
+        margin-right: 0%;
     }
     
     .form-signin {
         display: flex;
         flex-direction: column;
         width: 100%;
-        max-width: 500px;
+        max-width: 340px;
         padding: 25px;
         margin-top: 10px 10px;
         border: 1px solid gray;
@@ -332,16 +335,16 @@ body {
     .final {
         background: #F0F0F2;
         text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
         margin-top: 15%;
+        width: 100%;
+        margin-left: 0%;
     }
     
     .final h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: center;
         color: #2947F2;
-        width: 70vw;
+        width: 100vw;
     }
     
     .final p.citacao {
@@ -382,7 +385,7 @@ body {
         font-weight: 300;
         font-size: 1.5rem;
         line-height: 1.4;
-        margin-right: -55%;
+        margin-right: -40%;
     }
     
     .final button.btn-2 {
@@ -396,7 +399,7 @@ body {
         border-radius: 8px;
         height: 70px;
         width: 300px;
-        margin-right: 10%;
+        margin-right: 0;
         margin-bottom: 100px;
     }
     
@@ -406,7 +409,7 @@ body {
         position: fixed;
         left: 0;
         bottom: 0;
-        width: 100%;
+        width: 100vw;
         height: 40px;
         background-color: #454545;
         overflow: hidden;
