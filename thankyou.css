@@ -7,17 +7,26 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 100vw;
     background: #F0F0F2;
-    margin: 0 auto;
+    background-image: url("imagens/Vector-1.svg");
+    background-image: url("imagens/Vector.svg");
+    background-repeat:no-repeat;
 }
+
 .navbar-brand {
     align-items: center;
     text-align: center;
-    height: 120px;
+    height: 100px;
 }
-
 .logoTitulo {
     margin-top: 20px;
     width: 30%;
+    
+}
+.obrigado{
+    width: 90vw;
+     margin: 0 auto;
+     opacity: .5;
+    background-repeat: no-repeat;
 }
 
 .rodape {
@@ -28,6 +37,9 @@ body {
     height: 100px;
     background-color: #454545;
     overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .rodape p {
@@ -37,3 +49,31 @@ body {
     font-size: x-large;
 }
 
+#text{
+    font: weight 900;
+    text-align: center;
+    
+}
+#meio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#id {
+    text-align: center;
+}
+#insta {
+    width: 65px;
+}
+#face{
+    width: 65px;
+}
+#linkedin{
+    width: 65px;
+}
+#redes{
+    margin-left: 17%;
+    margin-top: -9%
+}
+#titulo {
+color: blue;
+}
