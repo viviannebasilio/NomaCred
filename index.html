@@ -2,7 +2,7 @@
 <html>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
 <head>
 
     <head>
@@ -31,7 +31,7 @@
 
 
     </head>
-  
+
     <link href="style.css" rel="stylesheet">
 
 <body>
@@ -45,7 +45,6 @@
     </nav>
 
 <section>
-  
     <div class="principal">
         <div class="bloco"><br><br>
             <h1 class="titulo"> Seja dono da sua vida financeira!</h1></br>
@@ -58,23 +57,66 @@
             </div>
         </div>
 
-        <div class="bloco">
-            <form class="form-signin" method="POST"
-                action="https://smtl.gama.academy/leads/1ccc7f64-25e3-11eb-bf8d-0d63c80760d2">
-                <br>
-                <h6 align="center">Preencha o formulario abaixo e acesse o conteudo!</h6><br>
-                <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" placeholder="Nome Completo"
-                    title="Digite seu nome completo" required /></br>
-                <input name="email" type="email" placeholder="Seu melhor email..." required /> </br>
-                <br>
-                <br>
-                <input type="submit" class="btn btn-outline-danger" value="Receber o Material" name="SendCadLead">
-                <input name="redirectTo" type="hidden" value="https://nomacred.netlify.app/thankyou.html" />
-            </form>
-
-        </div>
-    </div>
-</section>
+        <div id="quadrin">
+			<section class="bloco">				
+				<form class="form-signin" method="POST" action="https://smtl.gama.academy/leads/1ccc7f64-25e3-11eb-bf8d-0d63c80760d2">
+					<br>
+                    <h4 id=tituloform>Preencha o formulário abaixo e acesse o conteúdo!</h4><br>
+                    <div id="textoform">
+                    Nome*<br>
+					<input name="name" type="text" class=resizedTextbox title="Digite seu nome completo" required /><br><br>
+                    Email*<br>
+                    <input name="email" type="email" class=resizedTextbox required /> <br><br>
+                    Telefone*<br>
+                    <input type="text" class="resizedTextbox" required="true"><br><br>
+                    Estado*<br>
+					<select class=resizedTextbox required>
+                        <option value="">Selecione</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select><br><br>
+                    Sobre a sua vida financeira, o que você busca?
+                    <select class=resizedTextbox required>
+                        <option value="">Selecione</option>
+                        <option>Investir na sua empresa</option>
+                        <option>Construir ou reformar</option>
+                        <option>Abrir uma franquia ou expandir</option>
+                       </select>
+					<br>
+                    <br>
+                    <div class id="bottoncolor">
+                        
+                        
+                    <button type="submit" class="btn-2" >Baixar agora!</button></div></div><br>
+                    <h6 id="promnao">Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.</h6>
+					<input name="redirectTo" type="hidden" value="https://nomacred.netlify.app/" /></div>
+				</form>
+            </section>
     <!--NAVEGACAO
     <div>
         <main id="corpo" class="centered" aling="center">
@@ -140,6 +182,7 @@
             </div5>
         
         -->
+
 
 <section>
     <div class="final">
