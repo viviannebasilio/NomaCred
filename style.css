@@ -8,6 +8,7 @@
                 width: 100vw;
                 background: #F0F0F2;
                 margin: 0 auto;
+                overflow-x: hidden;
             }
             .centralizado{
             margin: 0 auto;
