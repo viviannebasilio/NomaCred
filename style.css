@@ -28,15 +28,66 @@ body {
     height: 80px;
 }
 
+#promnao{
+    font-size: 10px;
+}
+
+#textoform{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    
+}
+
+.resizedTextbox {
+    font-size: 12px;
+    background-color:rgb(238, 236, 236);
+    border-radius: 3px 3px 3px 3px;
+    width: 280px; height: 28px; }
+
+    .bottoncolor {
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 35px;
+        color: #F0F0F2;
+        background: #36BF98;
+        border: none;
+        border-radius: 8px;
+        height: 60px;
+        width: 280px;
+    }
+
+.direita{
+
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-right: -15%;
+}
+.form-signin {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 500px;
+    padding: 25px;
+    margin-top: 10px 10px;
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px rgb(196, 194, 194);
+}
+
+.form-signin .checkbox {
+    font-weight: 100;
+}
+
 .logoTitulo {
     margin-top: 10px;
     width: 23%;
 }
 .principal {
+    display: flex;
     margin-left: 15%;
-    height: 1000px;
     width: 65%;
-
 }
 
 
@@ -58,24 +109,12 @@ body {
 }
 
 .bloco {
-    height: 230px;
     width: 45%;
     float: left;
     margin: 20px;
-    
 }
 
-.form-signin {
-    width: 80%;
-    max-width: 500px;
-    padding: 25px;
-    margin-top: 10px 10px;
-    border: 3px solid #191970;
-}
 
-.form-signin .checkbox {
-    font-weight: 100;
-}
 
 
 .homemPrincipal{
