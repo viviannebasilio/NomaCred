@@ -252,11 +252,7 @@ body {
         width: 100vw;
         flex-direction: column;
     }
-    .bloco {
-        width: 100%;
-        float: left;
-        margin: 0;
-    }
+    
     .titulo {
         font-family: 'Roboto', sans-serif;
         font-size: 3rem;
