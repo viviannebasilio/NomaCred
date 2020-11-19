@@ -37,7 +37,7 @@ body {
     margin: 20px;
 }
 
-#tituloform {
+.tituloform {
         font-family: 'Roboto', sans-serif;
         color: #2947F2;
         text-align: center;
@@ -282,7 +282,7 @@ body {
         margin-top: 0%;
         margin-right: 0%;
     }
-    #tituloform {
+    .tituloform {
         font-family: 'Roboto', sans-serif;
         color: #2947F2;
         text-align: center;
