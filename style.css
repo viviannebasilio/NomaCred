@@ -13,11 +13,6 @@ body {
     overflow-x: hidden;
 }
 
-.navbar bg-white {
-    position: absolute;
-    width: 100vw;
-}
-
 .navbar-brand {
     display: block;
     align-items: center;
